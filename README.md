@@ -1,1 +1,1 @@
-<c># Tkintel Calculator</c>
+<c>#Tkintel Calculator</c>
