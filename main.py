@@ -22,6 +22,7 @@ def clear():
 
 root = Tk()
 root.configure(background='black')  # changes the board background to black
+root.iconbitmap('logo.ico')
 
 root.title('Calculator')
 
