@@ -1,11 +1,33 @@
 from tkinter import *
 
+#functions
+value='' # empty sting that holds the value to be displayed
+
+def click(num):
+    global value
+    value=value+str(num)
+    eqn.set(value) # setting the empty sting of eqn to value
+
+def calc():
+    global value
+    total=str(eval(value)) # runs the python code (which is passed as an argument) within the program.
+    eqn.set(total) # setting the value of eqn to total
+    value='' # sets the value to empty after the calculation
+
+def clear():
+    global value
+    value=''
+    eqn.set('')
+
+
 root = Tk()
 root.configure(background='black')  # changes the board background to black
 
 root.title('Calculator')
 
 eqn = StringVar()  # holding a empty string
+
+
 
 #entry(display) portion
 e = Entry(
@@ -26,6 +48,7 @@ e.grid(
     ipady=10,
     )
 
+
 #buttons
 
 button_1 = Button(
@@ -37,6 +60,7 @@ button_1 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(1)
     )
 
 button_2 = Button(
@@ -48,6 +72,7 @@ button_2 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(2)
     )
 
 button_3 = Button(
@@ -59,6 +84,7 @@ button_3 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(3)
     )
 
 button_4 = Button(
@@ -70,6 +96,7 @@ button_4 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(4)
     )
 
 button_5 = Button(
@@ -81,6 +108,7 @@ button_5 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(5)
     )
 
 button_6 = Button(
@@ -92,6 +120,7 @@ button_6 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(6)
     )
 
 button_7 = Button(
@@ -103,6 +132,7 @@ button_7 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(7)
     )
 
 button_8 = Button(
@@ -114,6 +144,7 @@ button_8 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(8)
     )
 
 button_9 = Button(
@@ -125,6 +156,7 @@ button_9 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(9)
     )
 
 button_0 = Button(
@@ -136,6 +168,7 @@ button_0 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click(0)
     )
 
 button_00 = Button(
@@ -147,6 +180,7 @@ button_00 = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click('00')
     )
 
 button_dot = Button(
@@ -158,6 +192,7 @@ button_dot = Button(
     bd=0, # boarder of the button
     activeforeground='#fdc703', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click('.')
     )
 
 button_add = Button(
@@ -165,10 +200,11 @@ button_add = Button(
     text='+',
     font=('Digital-7', 50),
     bg='black',
-    fg='#fdc703',
+    fg='#6adbd9',
     bd=0, # boarder of the button
-    activeforeground='#fdc703', # when pressed text color
+    activeforeground='#6adbd9', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click('+')
     )
 
 button_sub = Button(
@@ -176,10 +212,11 @@ button_sub = Button(
     text='-',
     font=('Digital-7', 50),
     bg='black',
-    fg='#fdc703',
+    fg='#6adbd9',
     bd=0, # boarder of the button
-    activeforeground='#fdc703', # when pressed text color
+    activeforeground='#6adbd9', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click('-')
     )
 
 button_mul = Button(
@@ -187,10 +224,11 @@ button_mul = Button(
     text='*',
     font=('Digital-7', 50),
     bg='black',
-    fg='#fdc703',
+    fg='#6adbd9',
     bd=0, # boarder of the button
-    activeforeground='#fdc703', # when pressed text color
+    activeforeground='#6adbd9', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click('*')
     )
 
 button_div = Button(
@@ -198,10 +236,11 @@ button_div = Button(
     text='÷',
     font=('Digital-7', 50),
     bg='black',
-    fg='#fdc703',
+    fg='#6adbd9',
     bd=0, # boarder of the button
-    activeforeground='#fdc703', # when pressed text color
+    activeforeground='#6adbd9', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click("/")
     )
 
 button_expo = Button(
@@ -209,10 +248,11 @@ button_expo = Button(
     text='^',
     font=('Digital-7', 50),
     bg='black',
-    fg='#fdc703',
+    fg='#6adbd9',
     bd=0, # boarder of the button
-    activeforeground='#fdc703', # when pressed text color
+    activeforeground='#6adbd9', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click('**')
     )
 
 button_mod = Button(
@@ -220,10 +260,11 @@ button_mod = Button(
     text='M',
     font=('Digital-7', 50),
     bg='black',
-    fg='#fdc703',
+    fg='#6adbd9',
     bd=0, # boarder of the button
-    activeforeground='#fdc703', # when pressed text color
+    activeforeground='#6adbd9', # when pressed text color
     activebackground='black', # when pressed background color
+    command=lambda :click('%')
     )
 
 button_equal = Button(
@@ -231,10 +272,11 @@ button_equal = Button(
     text='=',
     font=('Digital-7', 50),
     bg='black',
-    fg='#fdc703',
+    fg='#6adbd9',
     bd=0, # boarder of the button
-    activeforeground='#fdc703', # when pressed text color
+    activeforeground='#6adbd9', # when pressed text color
     activebackground='black', # when pressed background color
+    command=calc
     )
 
 button_clear = Button(
@@ -242,28 +284,19 @@ button_clear = Button(
     text='C',
     font=('Digital-7', 50),
     bg='black',
-    fg='#fdc703',
+    fg='red',
     bd=0, # boarder of the button
-    activeforeground='#fdc703', # when pressed text color
+    activeforeground='red', # when pressed text color
     activebackground='black', # when pressed background color
+    command=clear
     )
 
-button_back = Button(
-    root,
-    text='⇦',
-    font=('Digital-7', 50),
-    bg='black',
-    fg='#fdc703',
-    bd=0, # boarder of the button
-    activeforeground='#fdc703', # when pressed text color
-    activebackground='black', # when pressed background color
-    )
 
 #placements
 
 button_clear.grid(row=2, column=0, padx=5, pady=5)
 button_mod.grid(row=2, column=1, padx=5, pady=5)
-button_back.grid(row=2, column=2, padx=5, pady=5)
+button_expo.grid(row=2, column=2, padx=5, pady=5)
 button_div.grid(row=2, column=3, padx=5, pady=5)
 button_7.grid(row=3, column=0, padx=5, pady=5)
 button_8.grid(row=3, column=1, padx=5, pady=5)
