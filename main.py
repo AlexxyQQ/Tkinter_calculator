@@ -13,7 +13,7 @@ def click(num):
 def calc():
     global value
     total = str(eval(value))  # runs the python code (which is passed as an argument) within the program.
-    eqn.set(total)  # setting the value of eqn to total
+    eqn.set(total) # setting the value of eqn to total
     value = ''  # sets the value to empty after the calculation
 
 
