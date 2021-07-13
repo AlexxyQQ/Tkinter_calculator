@@ -7,10 +7,11 @@ The calculator is capable of handling basic operations also some ecomplex ones l
 
 ##Full design of the calculator
 
-<img src="https://i.imgur.com/8te7ink.png" /><br/>
+<img src="https://i.imgur.com/8te7ink.png" />
 
 
 ## Calculations
+
 ### Exponent
 <img src="https://i.imgur.com/OlfLyUF.gif" />
 
