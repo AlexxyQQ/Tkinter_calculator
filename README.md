@@ -1,5 +1,5 @@
  # Tkinter Calculator <img align="center" src="https://i.imgur.com/JDzrSoW.png" height="40" width="40" />
-A simple and elegant calculator designer soli using Tkinter a python module.
+A simple and elegant calculator designed soli using Tkinter a python module.
 
 ---
 ## Design and Functions
