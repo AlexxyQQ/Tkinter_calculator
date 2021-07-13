@@ -1,5 +1,5 @@
- # Tkinter Calculator <img align="center" src="https://i.imgur.com/JDzrSoW.png" height="40" width="40" />
-A simple and elegant calculator designer soli using Tkinter a python module.
+# Tkinter Calculator <img align="center" src="https://i.imgur.com/JDzrSoW.png" height="40" width="40" />
+A simple and elegant calculator designed soli using Tkinter a python module.
 
 ---
 ## Design and Functions
@@ -28,3 +28,4 @@ It can be used by pressing the division <span style="font-family: 'Digital-7'; f
 It can be used by pressing the division <span style="font-family: 'Digital-7'; font-size: 50px; color: #6adbd9;">M</span>  button
 <img src="https://i.imgur.com/NyoGXSX.gif" />
  
+### All other basic calculations can be easily performed, as the calculator uses python in built function eval which can perform calculations easily.
