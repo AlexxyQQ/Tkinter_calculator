@@ -27,3 +27,4 @@ It can be used by pressing the division <span style="font-family: 'Digital-7'; f
 ### Mod
 It can be used by pressing the division <span style="font-family: 'Digital-7'; font-size: 50px; color: #6adbd9;">M</span>  button
 <img src="https://i.imgur.com/NyoGXSX.gif" />
+ 
