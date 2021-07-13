@@ -3,7 +3,8 @@ A simple and elegant calculator designer soli using tkinter; a python module.
 
 ---
 #Design and Functions
-The calculator is capable of handling basic operations also some ecomplex ones like **mod**, **floor division** and **exponent**.
+
+The calculator is capable of handling basic operations also some complex ones like **mod**, **floor division** and **exponent**.
 
 ##Full design of the calculator
 
