@@ -38,7 +38,7 @@ def back():
             value = value.replace(a, '', 1)  # replaces character of a in the character of value only once
             eqn.set(value)
     except:
-        value=''
+        value = ''
         eqn.set(value)  # sets eqn to the value
 
 
