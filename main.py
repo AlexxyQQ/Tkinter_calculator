@@ -12,9 +12,15 @@ def click(num):
 
 def calc():
     global value
-    total = str(eval(value))  # runs the python code (which is passed as an argument) within the program.
-    eqn.set(total)  # setting the value of eqn to total
-    value = total  # sets the values to total which is calculated answer
+    try:  # tries the risky code
+        total = str(eval(value))  # runs the python code (which is passed as an argument) within the program.
+    except:  # if error is found runs expect
+        total = 'ERROR'
+        eqn.set(total)  # setting the value of eqn to total
+        value = ''  # sets the values to total which is calculated answer
+    else:  # if error is not found runs else
+        eqn.set(total)  # setting the value of eqn to total
+        value = total  # sets the values to total which is calculated answer
 
 
 def clear():
@@ -26,10 +32,14 @@ def clear():
 # Back function
 def back():
     global value
-    a = value[-1]
-    if a in value:
-        value = value.replace(a, '', 1)  # replaces character of a in the character of value only once
-    eqn.set(value)  # sets eqn to the value
+    try:
+        a = value[-1]
+        if a in value:
+            value = value.replace(a, '', 1)  # replaces character of a in the character of value only once
+            eqn.set(value)
+    except:
+        value=''
+        eqn.set(value)  # sets eqn to the value
 
 
 root = Tk()
