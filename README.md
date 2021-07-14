@@ -37,3 +37,10 @@ Eval dynamically evaluates expressions from a string-based or compiled-code-base
 
 ## Future Goals
 The backspace function of the calculator is not as refined as I want it to be, so I am hoping to improve on it.
+
+<img src="https://i.imgur.com/MLZGaPa.gifhttps://i.imgur.com/MLZGaPa.gif" />
+
+Culprit
+```python
+ value = value.replace(a, '', 1)
+```
