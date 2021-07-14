@@ -1,6 +1,10 @@
- # Tkinter Calculator <img align="center" src="https://i.imgur.com/JDzrSoW.png" height="40" width="40" />
-A simple and elegant calculator designer solely using Tkinter; a python module.
+<h1 align="center">Tkinter Calculator <img align="center" src="https://i.imgur.com/JDzrSoW.png" height="40" width="40" /></h1>
+<p align="center">A simple and elegant calculator designer solely using Tkinter; a python module.</p>
+<br>
 
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/AlexxyQQ/Tkinter_calculator?style=plastic) 
+![Packagist Stars](https://img.shields.io/packagist/stars/AlexxyQQ/Tkinter_calculator?style=plastic)
+![GitHub last commit](https://img.shields.io/github/last-commit/AlexxyQQ/Tkinter_calculator?style=plastic)
 ---
 ## Design and Functions
 
