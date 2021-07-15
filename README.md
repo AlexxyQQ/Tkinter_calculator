@@ -35,15 +35,8 @@ It can be used by pressing the division ``M``  button.
 Eval dynamically evaluates expressions from a string-based or compiled-code-based input. If you pass an operation in a string to ```eval()```, then the function parses it, compiles it to bytecode, and evaluates it as a Python expression.
 
 ## Future Goals
-- The backspace function of the calculator is not as refined as I want it to be, so I am hoping to improve on it.
 - function can be added for calculating inverse
 
-<img src="https://i.imgur.com/MLZGaPa.gifhttps://i.imgur.com/MLZGaPa.gif" />
-
-Culprit
-```python
- value = value.replace(a, '', 1)
-```
 
 > **Aayush Pandey** <br>
 Student id: **210226** <br>
