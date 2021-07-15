@@ -3,7 +3,6 @@
 <br>
 
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/AlexxyQQ/Tkinter_calculator?style=plastic) 
-![Packagist Stars](https://img.shields.io/packagist/stars/AlexxyQQ/Tkinter_calculator?style=plastic)
 ![GitHub last commit](https://img.shields.io/github/last-commit/AlexxyQQ/Tkinter_calculator?style=plastic)
 ---
 ## Design and Functions
