@@ -33,10 +33,11 @@ def clear():
 def back():
     global value
     try:
-        a = value[-1]
-        if a in value:
-            value = value.replace(a, '', 1)  # replaces character of a in the character of value only once
-            eqn.set(value)
+        a = ""
+        for i in range(len(value) - 1):
+            a = a + (value[i])
+        eqn.set(a)
+        value=a
     except:
         value = ''
         eqn.set(value)  # sets eqn to the value
