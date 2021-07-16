@@ -37,7 +37,7 @@ def back():
         for i in range(len(value) - 1):
             a = a + (value[i])
         eqn.set(a)
-        value=a
+        value = a
     except:
         value = ''
         eqn.set(value)  # sets eqn to the value
