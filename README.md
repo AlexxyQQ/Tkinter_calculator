@@ -5,10 +5,10 @@
 
 <p align="centre">
 
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/AlexxyQQ/Tkinter_calculator?style=plastic) 
-![GitHub last commit](https://img.shields.io/github/last-commit/AlexxyQQ/Tkinter_calculator?style=plastic)
-
+ ![Bitbucket open issues](https://img.shields.io/bitbucket/issues-raw/AlexxyQQ/Tkinter_calculator?style=plastic) 
+ ![GitHub last commit](https://img.shields.io/github/last-commit/AlexxyQQ/Tkinter_calculator?style=plastic)
 </p>
+
 ---
 ## Update
 ###Changelogs:
