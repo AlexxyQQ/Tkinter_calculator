@@ -1,4 +1,4 @@
-<h1 align="center"><img align="center" src="https://i.imgur.com/JDzrSoW.png" height="100" width="100" /></h1>
+<p align="center"><img align="center" src="https://i.imgur.com/JDzrSoW.png" height="100" width="100" /></p>
 <h1 align="center">Tkinter Calculator </h1>
 <p align="center">A simple and elegant calculator designed solely using Tkinter; a python module.</p>
 <br>
