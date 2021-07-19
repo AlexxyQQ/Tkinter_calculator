@@ -3,9 +3,10 @@
 <p align="center">A simple and elegant calculator designed solely using Tkinter; a python module.</p>
 <br>
 
-
-<img align="center" src="https://img.shields.io/bitbucket/issues-raw/AlexxyQQ/Tkinter_calculator?style=plastic" />
-<img align="center" src="https://img.shields.io/github/last-commit/AlexxyQQ/Tkinter_calculator?style=plastic" />
+<p align="centre">
+<img src="https://img.shields.io/bitbucket/issues-raw/AlexxyQQ/Tkinter_calculator?style=plastic" />
+<img src="https://img.shields.io/github/last-commit/AlexxyQQ/Tkinter_calculator?style=plastic" />
+</p>
 
 ---
 ## Update
