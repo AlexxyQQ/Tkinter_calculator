@@ -1,6 +1,7 @@
 <p align="center"><img align="center" src="https://i.imgur.com/JDzrSoW.png" height="100" width="100" /></p>
 <h1 align="center">Tkinter Calculator </h1>
-<p align="center">A simple and elegant calculator designed solely using Tkinter; a python module.</p>
+<p align="center">A simple and elegant calculator designed solely using Tkinter; a python module. <br>
+Also my knowledge dump.</p>
 <br>
 
 <p align="center"><img src="https://img.shields.io/bitbucket/issues-raw/AlexxyQQ/Tkinter_calculator?style=plastic" /> <img src="https://img.shields.io/github/last-commit/AlexxyQQ/Tkinter_calculator?style=plastic" />
