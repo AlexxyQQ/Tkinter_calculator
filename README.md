@@ -9,6 +9,8 @@
 ---
 ## Update
 
+- ### Added installer for the calculator, so you can run it on any pc without requirement of python _(for installation just download and install the installer.exe)_
+
 ### Changelogs:
 
 - New design, more function added ``Square root √`` , ``Factorial !`` , ``Braces ()``
