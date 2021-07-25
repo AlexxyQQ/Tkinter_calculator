@@ -8,7 +8,9 @@ Also my knowledge dump.</p>
 </p>
 
 ---
-<h1 align="center"> 🆕 Update
+<h1 align="center"> 🆕 Update </h1>
+
+_**You can now run the calculator on you computer. Just download the zip of the reop, extract and run the ``Calculator.exe``**_
 
 
 ### Changelogs:
