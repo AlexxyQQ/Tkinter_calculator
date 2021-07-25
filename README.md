@@ -8,27 +8,17 @@ Also my knowledge dump.</p>
 </p>
 
 ---
-## Update
+<h1 align="center"> 🆕 Update
 
-- ### Added installer for the calculator, so you can run it on any pc without requirement of python _(for installation just download and install the installer.exe)_
 
 ### Changelogs:
 
-- New design, more function added ``Square root √`` , ``Factorial !`` , ``Braces ()``
-  <img src="https://i.imgur.com/sAPjfkS.png">
-  
-- Live calculation
-  
-  <img src="https://i.imgur.com/UbuH9nI.gif">
-  
-- Better implementation of previous calculation's result
-  
-  <img src="https://i.imgur.com/Gul8FPp.gif">
-  
-- Keyboard inputs acceptable _(live calculation not supported for keyboard input!)_
- 
-  <img src="https://i.ibb.co/XFqnPBb/ezgif-com-gif-maker-2.gif">
+- Live calculation feature added.
+- Full keyboard numpad input support.
+- Live calculation of keyboard input.
+- More functions added ``Sin, Cos, Tan, Log, Square Root, Factorial `` and braces can be implemented in the calculation now.
 
+---
 
 
 
@@ -40,7 +30,7 @@ The calculator is fully equipped with functions like clear ``C`` and backspace `
 
 ## Full design of the calculator
 
-<img src="https://i.imgur.com/8te7ink.png" />
+<img src="https://i.imgur.com/1Xqup0n.png" />
 
 
 ## Calculations
@@ -63,8 +53,9 @@ Eval dynamically evaluates expressions from a string-based or compiled-code-base
 
 ## Future Goals
 - ~~function can be added for calculating inverse~~
-- keyboard input and live calculation for the keyboard input
+- ~~keyboard input and live calculation for the keyboard input.~~
 - still can't calculate any problems with 0 in the beginning like **(02-2)**
+- calculation history can be added.
 
 
 > **Aayush Pandey** <br>
