@@ -1,7 +1,7 @@
-#!/usr/bin/python
-# -*- coding: utf-8 -*-
+
 from tkinter import *
 import math
+import re
 
 value = ''  # empty sting that holds the value to be displayed
 
@@ -10,14 +10,12 @@ value = ''  # empty sting that holds the value to be displayed
 
 def click(num):
     global value  # changed the variable to global for reading the data inside it
-
-    if value == '0':
-        value = ''
     value = value + str(num)  # adding the pressed buttons value to the variable
     eqn.set(value)  # setting the empty sting of eqn to value
     if not value.isdigit():  # if string doesnt contain digit then it runs
         try:  # tries the risky code
-            total = str(eval(value))  # runs the python code (which is passed as an argument) within the program.
+            total = str(eval(re.sub(r"((?<=^)|(?<=[^\.\d]))0+(\d+)", r"\1\2", value)))  # runs the python code (which
+            # is passed as an argument) within the program.
             eqn2.set(total)
         except:
             eqn2.set('..')
@@ -51,7 +49,8 @@ def calc():
         if value == '':
             total = e2.get()
         else:
-            total = str(eval(value))  # runs the python code (which is passed as an argument) within the program.
+            total = str(eval(re.sub(r"((?<=^)|(?<=[^\.\d]))0+(\d+)", r"\1\2", value)))  # runs the python code (which
+            # is passed as an argument) within the program.
     except:
         total = 'ERROR'
         eqn.set(total)  # setting the value of eqn to total
@@ -227,7 +226,8 @@ def back():
 
     if not value.isdigit():  # if string doesnt contain digit then it runs
         try:  # tries the risky code
-            total = str(eval(value))  # runs the python code (which is passed as an argument) within the program.
+            total = str(eval(re.sub(r"((?<=^)|(?<=[^\.\d]))0+(\d+)", r"\1\2", value)))  # runs the python code (which
+            # is passed as an argument) within the program.
             if len(total) <= 4:  # if answer is more that 4 character long it doesnt displays it in answer section
                 eqn2.set(total)
             else:

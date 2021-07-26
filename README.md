@@ -15,6 +15,7 @@ _**You can now run the calculator on you computer. Just download the zip of the 
 
 ### Changelogs:
 
+- Fully functional.
 - Live calculation feature added.
 - Full keyboard numpad input support.
 - Live calculation of keyboard input.
@@ -56,7 +57,7 @@ Eval dynamically evaluates expressions from a string-based or compiled-code-base
 ## Future Goals
 - ~~function can be added for calculating inverse~~
 - ~~keyboard input and live calculation for the keyboard input.~~
-- still can't calculate any problems with 0 in the beginning like **(02-2)**
+- ~~still can't calculate any problems with 0 in the beginning like **(02-2)**~~
 - calculation history can be added.
 
 
